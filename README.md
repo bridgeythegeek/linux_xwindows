@@ -14,6 +14,10 @@ The properties can store an extraordinary amount of data - this is discussed bel
 
 It might be the case that an analyst is only interested in the atoms and so `linux_xatoms` exists independently of `linux_xwindows`.
 
+# 2 plugins, 1 file
+
+The source code ("the plugin"), `linux_xwindows.py`, provides both plugins: `linux_xwindows` and `linux_xatoms`.
+
 # Invoking `linux_xwindows`
 The plugin does not require any parameters, but the PID of the `X` or `Xorg` process(es) can be supplied for targeted analysis.
 
