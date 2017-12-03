@@ -1,5 +1,5 @@
 # linux_xwindows
-`linux_xwindows` is a plugin for the Volatility Framework. It extracts various metadata from the window objects registered to X.
+`linux_xwindows` is a plugin (well, arguably two plugins) for the Volatility Framework. It extracts various metadata from the window objects registered to X.
 
 # Motivation
 At the time of writing, there are no plugins which perform any kind of analysis of the X Windows environment used by mainstream Linux distributions. `linux_xwindows` has been written to provide the forensic analyst with a full listing of every window from every display known to each X server.
